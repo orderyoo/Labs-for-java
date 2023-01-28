@@ -17,7 +17,6 @@ public class Main {
                 min = i;
             }
         }
-        System.out.println(min);
         averge = (double) sum / mas.length;
         double rez  = averge + min;
         System.out.println("Сумма минимального элемента и среденего арифметичеческого = " + rez);
